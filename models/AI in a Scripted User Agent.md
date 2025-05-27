@@ -13,7 +13,7 @@ Browsers and operating systems are increasingly expected to gain access to a lan
 ## Data Flow Diagram
 The following flow diagram shows details from a variety of implementations, not all of which will appear in the same design. That means that to be valid a specific implementation will need to be evaluated in a similar manner. The primary native app is the web browser.
 
-![alt text](AI in a User Agent.png)
+![alt text](./AI in a User Agent.png)
 
 ## Vulnerabilities
 
