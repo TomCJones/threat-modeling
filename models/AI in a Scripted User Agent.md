@@ -11,8 +11,8 @@ Google on Chromium and others in the W3C have been trying to make web apps that 
 Browsers and operating systems are increasingly expected to gain access to a language model. By exposing this built-in model, we avoid every website needing to download their own multi-gigabyte language model, or send input text to third-party APIs. The rewriter API in particular exposes a high-level API for interfacing with a language model in order to transform inputs for a variety of use cases, in a way that does not depend on the specific language model in question. [Rewriter API](https://github.com/explainers-by-googlers/writing-assistance-apis/blob/main/README.md#rewriter-api)
 
 ## Taxonomy
-*Dark Pattern = a collection of data an processes to mislead a user into a behavior that benefits an Enterprise.
-*Poison* = Data added to common store that is designed to support a Dark Pattern.
+- *Dark Pattern* = a collection of data an processes to mislead a user into a behavior that benefits an Enterprise.
+- *Poison* = Data added to common store that is designed to support a Dark Pattern.
 
 ## Data Flow Diagram
 The following flow diagram shows details from a variety of implementations, not all of which will appear in the same design. That means that to be valid a specific implementation will need to be evaluated in a similar manner. The primary native app is the web browser.
