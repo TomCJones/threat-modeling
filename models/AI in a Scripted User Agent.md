@@ -1,8 +1,8 @@
 # AI in a Scripted User Agent
 
-Artificial Intelligence (aka LLM) is getting added to everything, including the Web Browser, which will have some severe unanticipated downside for the user. 
+Artificial Intelligence (aka LLM) is getting added to everything, including the Web Browser, which will have some severe unanticipated downside for the user. This is a mark-down summary of the full PDF file of the Threat Model.
 
-Contributor: tomcjones 2025-05-15 
+Contributor: tomcjones 2025-06-02 
 
 ## Context
 
