@@ -1,3 +1,51 @@
+Browsers support a wide range of **media codecs and streaming protocols**, but the exact list depends on the browser, operating system, and installed components. Here's a breakdown of the most commonly supported ones:
+
+---
+
+### 🎥 **Video Codecs**
+These are used to compress and decompress video streams:
+
+| Codec       | Full Name                     | Common Containers | Browser Support |
+|-------------|-------------------------------|-------------------|------------------|
+| **H.264**   | AVC (Advanced Video Coding)   | MP4, 3GP          | Widely supported |
+| **H.265**   | HEVC (High Efficiency Video Coding) | MP4         | Limited (Safari, some Edge) |
+| **AV1**     | AOMedia Video 1               | MP4, WebM         | Chrome, Firefox, Edge (modern) |
+| **VP8**     | Video Processor 8             | WebM, Ogg         | Chrome, Firefox, Edge |
+| **VP9**     | Video Processor 9             | WebM, MP4         | Chrome, Firefox, Edge |
+| **Theora**  | —                             | Ogg               | Firefox, older browsers |
+
+Source: [MDN Web Docs – Web video codec guide](https://developer.mozilla.org/docs/Web/Media/Guides/Formats/Video_codecs)
+
+---
+
+### 🔊 **Audio Codecs**
+Used for compressing audio streams:
+
+| Codec     | Common Use        | Browser Support |
+|-----------|-------------------|------------------|
+| **AAC**   | MP4 audio         | Universal        |
+| **MP3**   | Legacy support    | Universal        |
+| **Opus**  | WebRTC, WebM      | Chrome, Firefox, Edge |
+| **Vorbis**| Ogg, WebM         | Firefox, Chrome  |
+| **FLAC**  | Lossless audio    | Chrome, Firefox  |
+
+---
+
+### 🌐 **Streaming Protocols**
+These define how media is delivered over the network:
+
+| Protocol | Description                              | Browser Support |
+|----------|------------------------------------------|------------------|
+| **HLS**  | HTTP Live Streaming (Apple)              | Safari natively, others via Media Source Extensions |
+| **DASH** | Dynamic Adaptive Streaming over HTTP     | Chrome, Firefox, Edge (via MSE) |
+| **RTMP** | Real-Time Messaging Protocol             | Not natively supported (requires Flash or server-side conversion) |
+| **WebRTC** | Real-time peer-to-peer communication   | Chrome, Firefox, Edge, Safari |
+| **RTSP** | Real-Time Streaming Protocol             | Not supported directly in browsers |
+
+Source: [Brightcove HTML5 Video Formats](https://bing.com/search?q=list+of+protocols+video+codecs+registered+by+browser), [Flussonic Streaming Protocols Guide](https://bing.com/search?q=list+of+protocols+video+codecs+registered+by+browser)
+
+===============================
+
 Registration protocols in the browser—such as those used to register **media types, custom protocols, or credential handlers**—serve a foundational purpose: enabling websites or installed web applications to **interact securely and predictably with browser features** or external systems.
 
 Here’s what they’re designed to do:
