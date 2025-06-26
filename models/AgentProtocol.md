@@ -107,8 +107,8 @@ walk through a **simulated attack flow** targeting AI Agent-to-Agent (A2A) and M
 
 ---
 
-sketch out an **OpenID4VP-specific wire attack**, discuss **user mediation safeguards**, or explore **sandboxing untrusted tools**
-Perfect—let's dissect a sample **OpenID4VP wireless credential presentation attack**, staged by a malicious external verifier, to show how vulnerabilities in the AI ↔ wallet ↔ verifier flow can be exploited:
+For an **OpenID4VP-specific wire attack**, discuss **user mediation safeguards**, or explore **sandboxing untrusted tools**
+Dissect a sample **OpenID4VP wireless credential presentation attack**, staged by a malicious external verifier, to show how vulnerabilities in the AI ↔ wallet ↔ verifier flow can be exploited:
 
 ---
 
@@ -174,7 +174,7 @@ The verifier stores disclosed attributes, violating data minimization principles
 
 simulate the same with **DIDComm**, or build a speculative architecture where the AI mediates with a policy reasoner (e.g. XACML-style) before invoking the wallet? We could even sketch a consent receipt format that logs all this.
 
-Excellent. Let’s sketch a **policy-aware wireless credential exchange architecture**, incorporating AI, wallets, and external verifiers, with safeguards against attack.
+Sketch a **policy-aware wireless credential exchange architecture**, incorporating AI, wallets, and external verifiers, with safeguards against attack.
 
 ---
 
@@ -206,7 +206,7 @@ Verifier ──(1) Request → AI Agent
 
 ###  How an External Service Could Attack
 
-Let’s say a malicious verifier tries to exploit the system during step (1) and (5). Here’s how:
+Show a malicious verifier exploiting the system during step (1) and (5). Here’s how:
 
 - **Step 1: Presentation Definition Overreach**
   - Attacker asks for *more than necessary*, e.g., “Give me age, full name, and license scan”
@@ -239,7 +239,7 @@ Let’s say a malicious verifier tries to exploit the system during step (1) and
 
 ---
 explore a concrete JSON-LD example of a selective disclosure exchange, or build a trust registry mechanism to exclude “rogue” BLE verifiers. This is frontier territory.
-Great! Let’s build out a **trust-enforcing wireless credential presentation framework**—one that uses an AI agent, a policy engine, and a wallet to detect, log, and defend against malicious verifiers exploiting protocols like **OpenID4VP**, **DIDComm**, or **ISO 18013-5** over **BLE/NFC**.
+Build out a **trust-enforcing wireless credential presentation framework**—one that uses an AI agent, a policy engine, and a wallet to detect, log, and defend against malicious verifiers exploiting protocols like **OpenID4VP**, **DIDComm**, or **ISO 18013-5** over **BLE/NFC**.
 
 ---
 
@@ -322,7 +322,7 @@ Perfect—let’s tailor this to a **mobile driver’s license (mDL)** use case 
 
 ---
 
-### 📱 Use Case: Presenting an mDL over BLE at a Venue
+### Use Case: Presenting an mDL over BLE at a Venue
 
 **Scenario**: A user presents proof of age at a concert gate using their smartphone via BLE. The verifier wants minimal data (e.g. “18+”) but may attempt to overreach.
 
@@ -377,4 +377,4 @@ Perfect—let’s tailor this to a **mobile driver’s license (mDL)** use case 
 
 ---
 
-If you'd like, we can mock up a sample ISO-compliant mDL credential with a Decentralized Identifier (DID) and walk through its presentation cryptographically. Or pivot to what the verifier needs to validate on their side. Let’s keep going.
+we can mock up a sample ISO-compliant mDL credential with a Decentralized Identifier (DID) and walk through its presentation cryptographically. Or pivot to what the verifier needs to validate on their side.
