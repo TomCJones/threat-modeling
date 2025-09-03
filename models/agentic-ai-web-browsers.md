@@ -95,7 +95,7 @@ An agent, taken individually and simplified from the model used by Google SAIF a
  - Infrastructure
  - Data
 
-It is also particularly important to note the connection points from external sources: the user, the web, and other agents, which interact with the application, as well as other agents/plugins that can provide input and output, and external sources (such as the web, which an agent can browse). 
+It is also particularly important to note the connection points from external sources: the user, the web, and other agents, which interact with the application, as well as other agents/plugins (a Web Browser in this case) that can provide input and output, and external sources (such as the web, which an agent can browse). 
 
 
 ```mermaid
@@ -108,7 +108,7 @@ flowchart TB
   subgraph L4 [Model Usage]
     app[Application]
     input[Input Handling]
-    agent[Agent/Plugin Interface]
+    agent[Web Browser]
     output[Output Handling]
 
     app --> input
