@@ -10,6 +10,8 @@ Google on Chromium and others in the W3C have been trying to make web apps that 
 
 Browsers and operating systems are increasingly expected to gain access to a language model. By exposing this built-in model, we avoid every website needing to download their own multi-gigabyte language model, or send input text to third-party APIs. The rewriter API in particular exposes a high-level API for interfacing with a language model in order to transform inputs for a variety of use cases, in a way that does not depend on the specific language model in question. [Rewriter API](https://github.com/explainers-by-googlers/writing-assistance-apis/blob/main/README.md#rewriter-api)
 
+Google is creating many APIs to access AI directly from JavaScript but as of 2025-11-11 all were protected behind APIs so that the user would needed enable any of the to see the effect.  [AI Right in the Browser With Chrome’s Built-in AI APIs](https://gitnation.com/contents/chrome-built-in-ai-apis)
+
 ## Taxonomy
 - *Dark Pattern* = a collection of data an processes to mislead a user into a behavior that benefits an Enterprise.
 - *Poison* = Data added to common store that is designed to support a Dark Pattern.
@@ -71,3 +73,4 @@ Particularly for battery operated devices, the amount of power allocated to any 
 ## References
 
   Bruce Schneier, LLM's Data-Control Path Insecurity CACM 67 No 9 page 31-32 downloaded from [LLMs  Data-Control Path Insecurity   Communications of the ACM](https://cacm.acm.org/opinion/llms-data-control-path-insecurity/)
+
