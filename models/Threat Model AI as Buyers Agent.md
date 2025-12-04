@@ -57,7 +57,7 @@ The initial draft was created with help from the bingbot by Tom Jones  2025-12-0
 - **Impact**: Buyer loses control over financial commitments and may open a channel from the supplier to make additional sales pitches to the buyer.
 - **Example**: AI auto-purchases based on inferred preferences.
 
-![alt text](Threat Model AI as Buyer’s Agent.png)
+![alt text](ThreatModelAIasBuyersAgent.png)
 
 ## Threat Matrix
 
@@ -138,4 +138,5 @@ using  Policy Constraint Mapping
 | Info Disclosure        | Restrict to task info    | Expire disclosure rights | Seller-only limited access  | Session-scoped data      |
 | Denial of Service      | Filter by task relevance | Session expiry           | Authorized vendor roles     | Session isolation        |
 | Elevation of Privilege | Explicit task limits     | Authority expiry         | Buyer retains approval role | Session-scoped authority |
+
 
