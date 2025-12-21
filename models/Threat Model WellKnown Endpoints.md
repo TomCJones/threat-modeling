@@ -85,6 +85,15 @@ Note that the standards do not rely on TLS enforcement as a mitigation. That mea
 - **Impact**:  Clients may fail open or fail closed, depending on implementation.  
 - **Mitigation**: Testing of deployed systems immediately after release and from time-to-time
 
+### 8\. **Caching & Staleness Risks**
+
+- **Attack Vector**: Metadata is often cached aggressively.
+  - Clients using outdated issuer metadata
+  - Slow propagation of key revocation
+  - Inconsistent behavior across clients
+- **Impact**: Trust decisions based on stale information.
+- **Mitigation**: Force reloads before impactful trust decisions are made.
+
 ## Threat Model Table
 
 | Threat Area | Attack Vector | Impact | Mitigation |
